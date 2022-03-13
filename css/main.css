@@ -1,53 +1,70 @@
-html{
-    font-family: sans-serif;
-    box-sizing: border-box;
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
-::before
-::after{
-    box-sizing: inherit;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
-body{
-    background-color: #fdf6e;
+
+body {
+  background-color: #fdf6e3;
 }
-nav ul{
-    font-family: sans-serif;
+
+nav ul {
+  font-family: sans-serif;
 }
-logo{
-    text-transform: uppercase;
+
+.logo {
+  text-transform: uppercase;
 }
-wrapper{
-    background-color: #fdf6e;
+
+.wrapper {
+  background-color: #eee8d5;
 }
-header,footer {
-    font-size: 1.5rem;
+
+header, footer {
+  font-size: 1.5rem;
 }
+
 #contents, #favs, #facts, #types {
-    color: azure;
+  color: #93a1a1;
 }
+
 .wrapper > .dfm {
-    background-color: gold;
+  background-color: #b58900;
 }
+
 .dfm p + strong {
-    color: aliceblue;
+  color: #fff;
 }
+
 a:not(.no-highlight) {
-    background-color: chartreuse;
+  background-color: #719e07;
 }
+
 [rel="external"] {
-    background-color: cornflowerblue;
+  background-color: #2694d8;
 }
-ol li:first-child{
-    color: antiquewhite;
+
+ol li:first-child {
+  color: #719e47;
 }
-ol li:last-child{
-    color: aqua;
+
+ol li:last-child {
+  color: #2aa198;
 }
-.types li:nto-child (odd) {
-    background-color: cornflowerblue;
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
 }
+
 .types li:nth-child(even) {
-    background-color: aliceblue;
+  background-color: #586e75;
 }
+
 .types li:nth-child(3n) {
-    background-color: aliceblue;
+  background-color: #d04b16;
 }
