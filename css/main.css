@@ -1,0 +1,53 @@
+html{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+::before
+::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #fdf6e;
+}
+nav ul{
+    font-family: sans-serif;
+}
+logo{
+    text-transform: uppercase;
+}
+wrapper{
+    background-color: #fdf6e;
+}
+header,footer {
+    font-size: 1.5rem;
+}
+#contents, #favs, #facts, #types {
+    color: azure;
+}
+.wrapper > .dfm {
+    background-color: gold;
+}
+.dfm p + strong {
+    color: aliceblue;
+}
+a:not(.no-highlight) {
+    background-color: chartreuse;
+}
+[rel="external"] {
+    background-color: cornflowerblue;
+}
+ol li:first-child{
+    color: antiquewhite;
+}
+ol li:last-child{
+    color: aqua;
+}
+.types li:nto-child (odd) {
+    background-color: cornflowerblue;
+}
+.types li:nth-child(even) {
+    background-color: aliceblue;
+}
+.types li:nth-child(3n) {
+    background-color: aliceblue;
+}
