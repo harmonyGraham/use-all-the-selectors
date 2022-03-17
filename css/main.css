@@ -1,5 +1,4 @@
 html {
-  font-family: sans-serif;
   box-sizing: border-box;
 }
 
@@ -33,11 +32,11 @@ header, footer {
   color: #93a1a1;
 }
 
-.wrapper > .dfm {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfm p + strong {
+.dfn p + strong {
   color: #fff;
 }
 
